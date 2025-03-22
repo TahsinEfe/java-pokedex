@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan({"com.pokedex.Pokedex", "controller", "service", "DTO"})
+@ComponentScan({"com.pokedex.Pokedex", "controller", "service", "DTO", "model", "repository"})
 public class PokedexApplication {
 
 	public static void main(String[] args) {
