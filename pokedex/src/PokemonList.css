@@ -1,0 +1,90 @@
+.generation-tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.generation-tabs button {
+    background: #e0e0e0;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.generation-tabs button:hover {
+    background: #bdbdbd;
+}
+
+.generation-tabs button.active {
+    background: #ffcc00;
+    color: black;
+    font-weight: bold;
+}
+
+.pokemon-card {
+    position: relative;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    background: white;
+    transition: transform 0.2s;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.pokemon-card:hover {
+    transform: scale(1.05);
+}
+
+/* Favori Yıldız */
+.favorite-star {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    font-size: 24px;
+    cursor: pointer;
+    color: gray;
+    transition: color 0.3s ease;
+}
+
+.favorite-star.favorited {
+    color: gold;
+}
+
+/* Pokémon Türleri */
+.pokemon-types {
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.type {
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+}
+
+.type.grass { background-color: #78C850; }
+.type.fire { background-color: #F08030; }
+.type.water { background-color: #6890F0; }
+.type.bug { background-color: #A8B820; }
+.type.normal { background-color: #A8A878; }
+.type.poison { background-color: #A040A0; }
+.type.electric { background-color: #F8D030; }
+.type.ground { background-color: #E0C068; }
+.type.fairy { background-color: #EE99AC; }
+.type.fighting { background-color: #C03028; }
+.type.psychic { background-color: #F85888; }
+.type.rock { background-color: #B8A038; }
+.type.ghost { background-color: #705898; }
+.type.ice { background-color: #98D8D8; }
+.type.dragon { background-color: #7038F8; }
+.type.dark { background-color: #705848; }
+.type.steel { background-color: #B8B8D0; }
+.type.flying { background-color: #A890F0; }
